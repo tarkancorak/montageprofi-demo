@@ -6,6 +6,20 @@ export default function Chat() {
       chatflowid={process.env.NEXT_PUBLIC_CHATFLOW_ID!}
       apiHost={process.env.NEXT_PUBLIC_CHATFLOW_API_HOST}
       theme={{
+        button: {
+          right: 20,
+          bottom: 20,
+          size: "large", // small | medium | large | number
+          dragAndDrop: true,
+          iconColor: "white",
+        },
+        tooltip: {
+          showTooltip: true,
+          tooltipMessage: "Hallo 👋!",
+          tooltipBackgroundColor: "black",
+          tooltipTextColor: "white",
+          tooltipFontSize: 16,
+        },
         chatWindow: {
           showTitle: true,
           title: "MontageProfi - Demo",
