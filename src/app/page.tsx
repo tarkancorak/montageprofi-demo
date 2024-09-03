@@ -52,7 +52,8 @@ export default function Home() {
       {/* Hero Banner */}
       <section className='relative bg-gray-800 text-white h-[500px] flex items-center justify-center'>
         <Image
-          src='https://picsum.photos/1600/900'
+          // src='https://picsum.photos/1600/900'
+          src='/banner.webp'
           alt='Montage Banner'
           layout='fill'
           objectFit='cover'
