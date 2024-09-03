@@ -121,6 +121,7 @@ export default function Home() {
           &copy;{" "}
           <a
             href='https://www.linkedin.com/in/corak/'
+            target='_blank'
             className='hover:text-yellow-500'
           >
             Tarkan Corak
