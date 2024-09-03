@@ -24,7 +24,7 @@ export default function Chat() {
           showTitle: true,
           title: "MontageProfi - Demo",
           welcomeMessage:
-            "Hallo und willkommen! Wie kann ich Ihnen heute helfen? Ich stehe bereit, um Ihre Fragen zu beantworten oder Ihr Projekt zu unterstützen.",
+            "Hallo, hier ist Sammy von MontageProfi. Wie kann ich Ihnen heute weiterhelfen?",
           textInput: {
             placeholder: "Bitte Frage eingeben",
             sendButtonColor: "#202A37",
@@ -40,7 +40,7 @@ export default function Chat() {
             backgroundColor: "#f7f8ff",
             textColor: "#303235",
             showAvatar: true,
-            avatarSrc: "/bot.png",
+            avatarSrc: "/assistant.webp",
           },
           footer: {
             showFooter: false,
