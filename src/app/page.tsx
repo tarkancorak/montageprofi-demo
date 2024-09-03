@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { useState } from "react";
+import Chat from "./components/Chat";
 
 export default function Home() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -127,6 +128,7 @@ export default function Home() {
           | Diese Seite ist eine Demo-Website.
         </p>
       </footer>
+      <Chat />
     </div>
   );
 }
