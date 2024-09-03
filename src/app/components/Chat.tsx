@@ -7,6 +7,7 @@ export default function Chat() {
       apiHost={process.env.NEXT_PUBLIC_CHATFLOW_API_HOST}
       theme={{
         button: {
+          backgroundColor: "#B86111",
           right: 20,
           bottom: 20,
           size: "large", // small | medium | large | number
@@ -22,9 +23,9 @@ export default function Chat() {
         },
         chatWindow: {
           showTitle: true,
-          title: "MontageProfi - Demo",
+          title: "IC MONTAGE - Demo",
           welcomeMessage:
-            "Hallo, hier ist Sammy von MontageProfi. Wie kann ich Ihnen heute weiterhelfen?",
+            "Hallo, hier ist Sammy von IC MONTAGE. Wie kann ich Ihnen heute weiterhelfen?",
           textInput: {
             placeholder: "Bitte Frage eingeben",
             sendButtonColor: "#202A37",

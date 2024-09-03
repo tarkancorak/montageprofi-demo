@@ -5,7 +5,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "MontageProfi",
+  title: "IC MONTAGE - Demo",
   description: "Demo-Website mit KI-Chatbot Integration",
 };
 

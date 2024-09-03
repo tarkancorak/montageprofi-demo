@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <div className='font-sans'>
       {/* Disclaimer */}
-      <div className='bg-yellow-300 text-center p-4 text-sm'>
+      <div className='bg-[#B86111] text-white text-center p-4 text-sm'>
         <p>
           Dies ist eine Demo-Website. Kein echter Service wird hier angeboten.
         </p>
@@ -19,7 +19,7 @@ export default function Home() {
       {/* Header */}
       <header className='bg-gray-800 text-white'>
         <div className='container mx-auto flex justify-between items-center p-4'>
-          <div className='text-xl font-bold'>MontageProfi</div>
+          <div className='text-xl font-bold'>IC MONTAGE - Demo</div>
           <nav className='hidden md:flex space-x-6'>
             <a href='#services' className='hover:text-yellow-300'>
               Services
@@ -59,8 +59,8 @@ export default function Home() {
           className='opacity-50'
         />
         <div className='absolute text-center'>
-          <h1 className='text-4xl font-bold mb-4'>
-            Hochwertige Montagedienstleistungen
+          <h1 className='text-4xl font-bold mb-4 mx-4'>
+            Hochwertige Montage Dienstleistungen
           </h1>
           <p className='text-xl mb-6'>
             Fassaden, Dächer, Fenster, Türen und mehr
